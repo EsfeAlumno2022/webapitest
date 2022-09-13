@@ -16,6 +16,10 @@ namespace TestWebAPI.Controllers
         {
             return View();
         }
+        public IActionResult Delete()
+        {
+            return View();
+        }
         public IActionResult Details()
         {
             return View();
