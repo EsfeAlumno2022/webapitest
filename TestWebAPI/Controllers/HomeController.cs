@@ -20,5 +20,9 @@ namespace TestWebAPI.Controllers
         {
             return View();
         }
+        public IActionResult Details()
+        {
+            return View();
+        }
     }
 }
