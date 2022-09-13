@@ -8,6 +8,10 @@ namespace TestWebAPI.Controllers
         {
             return View();
         }
+        public IActionResult Editar()
+        {
+            return View();
+        }
         public IActionResult Create()
         {
             return View();
